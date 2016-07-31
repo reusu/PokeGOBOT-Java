@@ -54,7 +54,7 @@ public class CatchNearbyPokemon implements Runnable{
 			}else{
 				
 				List<CatchablePokemon> catchablePokemons = pokemonGo.getMap().getCatchablePokemon();
-//				logger.info("检索到周边有可以抓的宝可梦 " + catchablePokemons.size() + " 只");
+				logger.debug("检索到周边有可以抓的宝可梦 " + catchablePokemons.size() + " 只");
 				if(catchablePokemons.size()>0){
 					Iterator<CatchablePokemon> catchablePokemonIter = catchablePokemons.iterator();
 					while(catchablePokemonIter.hasNext()){

@@ -44,7 +44,6 @@ public class LootNearbyPokestop implements Runnable{
 			ComparatorLng comparatorLng = new ComparatorLng();
 			Collections.sort(pokestopList,comparatorLng);
 			Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
-			
 			Iterator<Pokestop> pokeStopListIter = pokestopList.iterator();
 			while(pokeStopListIter.hasNext()){
 				Pokestop pokestop = pokeStopListIter.next();
@@ -75,6 +74,11 @@ public class LootNearbyPokestop implements Runnable{
 					S2LatLng target = S2LatLng.fromDegrees(pokestop.getLatitude(), pokestop.getLongitude());
 					walk(target);
 					break;
+				}else if(!threadCount.getWaking() && !soClose()){
+					logger.info("附近木有可以摸的补给站，回家");
+					S2LatLng target = S2LatLng.fromDegrees(Double.parseDouble(Config.getProperty("latitude")), Double.parseDouble(Config.getProperty("longitude")));
+					walk(target);
+					break;
 				}
 			}
 		}catch (Exception e) {
@@ -97,14 +101,20 @@ public class LootNearbyPokestop implements Runnable{
 			return distanceA.compareTo(distanceB);
 		}
 	}
-	
+	private boolean soClose() throws NumberFormatException, InterruptedException{
+		S2LatLng home = S2LatLng.fromDegrees(Double.parseDouble(Config.getProperty("latitude")), Double.parseDouble(Config.getProperty("longitude")));
+		S2LatLng now = S2LatLng.fromDegrees(pokemonGo.getLatitude(), pokemonGo.getLongitude());
+		Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
+		S2LatLng diff = home.sub(now);
+		return Math.abs(diff.latDegrees()) <= 0.001 && Math.abs(diff.lngDegrees()) <= 0.001;
+	}
 	private void walk(S2LatLng end) throws InterruptedException{
 		S2LatLng start = S2LatLng.fromDegrees(pokemonGo.getLatitude(), pokemonGo.getLongitude());
 		S2LatLng diff = end.sub(start);
 		double distance = start.getEarthDistance(end);
 		double speed = Double.parseDouble(Config.getProperty("bot_walk_speed"));
 		double timeRequired = distance / speed;
-		long timeout = 350L;
+		long timeout = 1000L;
 		double stepsRequired = timeRequired / ((double)timeout / (double)1000);
 		if(stepsRequired==0){
 		}else{
@@ -114,10 +124,11 @@ public class LootNearbyPokestop implements Runnable{
 			threadCount.setWaking(true);
 			for(int i=0;i<=(int)stepsRequired;i++){
 				S2LatLng now = S2LatLng.fromDegrees(pokemonGo.getLatitude(), pokemonGo.getLongitude());
-//				logger.info("当前坐标 (" + now.latDegrees() + "," + now.lngDegrees() + ")");
+				logger.debug("当前坐标 (" + now.latDegrees() + "," + now.lngDegrees() + ")");
 				pokemonGo.setLocation(now.latDegrees()+ deltaLat, now.lngDegrees() + deltaLng, 0.0);
 				Thread.sleep(timeout);
 			}
+			threadCount.setWaking(false);
 		}
 	}
 }
