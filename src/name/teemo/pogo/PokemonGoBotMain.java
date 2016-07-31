@@ -65,7 +65,6 @@ public class PokemonGoBotMain {
 		PokemonGoBot pokemonGoBot = new PokemonGoBot(pokemonGo);
 		Thread pokemonGoBotThread = new Thread(pokemonGoBot);
 		pokemonGoBotThread.start();
-		
 	}
 	
 	private static CredentialProvider getAuth(OkHttpClient http) throws LoginFailedException, RemoteServerException{

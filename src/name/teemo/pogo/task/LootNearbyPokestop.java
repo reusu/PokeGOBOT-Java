@@ -1,6 +1,7 @@
 package name.teemo.pogo.task;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
@@ -69,12 +70,12 @@ public class LootNearbyPokestop implements Runnable{
 					}else if(result.getResult() == Result.NO_RESULT_SET ){
 						logger.info("未知异常");
 					}
-				}else if(!pokestop.inRange() && !threadCount.getWaking()){
+				}else if(!pokestop.inRange() && !threadCount.getWaking() && Math.abs(threadCount.getUpWalkTime()-Calendar.getInstance().getTimeInMillis()) >= Long.parseLong(Config.getProperty("bot_cold_time"))){
 					logger.info("移动到较远的补给站");
 					S2LatLng target = S2LatLng.fromDegrees(pokestop.getLatitude(), pokestop.getLongitude());
 					walk(target);
 					break;
-				}else if(!threadCount.getWaking() && !soClose()){
+				}else if(!threadCount.getWaking() && !soClose() && Math.abs(threadCount.getUpWalkTime()-Calendar.getInstance().getTimeInMillis()) >= Long.parseLong(Config.getProperty("bot_cold_time"))){
 					logger.info("附近木有可以摸的补给站，回家");
 					S2LatLng target = S2LatLng.fromDegrees(Double.parseDouble(Config.getProperty("latitude")), Double.parseDouble(Config.getProperty("longitude")));
 					walk(target);
@@ -122,6 +123,7 @@ public class LootNearbyPokestop implements Runnable{
 			double deltaLng = diff.lngDegrees() / stepsRequired;
 			logger.info("正在移动到目标 " + end.toStringDegrees() + " 需要步数 " + stepsRequired  + "步");
 			threadCount.setWaking(true);
+			threadCount.setUpWalkTime(Calendar.getInstance().getTimeInMillis());
 			for(int i=0;i<=(int)stepsRequired;i++){
 				S2LatLng now = S2LatLng.fromDegrees(pokemonGo.getLatitude(), pokemonGo.getLongitude());
 				logger.debug("当前坐标 (" + now.latDegrees() + "," + now.lngDegrees() + ")");

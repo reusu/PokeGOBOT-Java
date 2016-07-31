@@ -26,7 +26,7 @@ public class DropUselessItems implements Runnable{
 	private static ItemId[] dItem = {
 			ItemId.ITEM_REVIVE, ItemId.ITEM_MAX_REVIVE, ItemId.ITEM_POTION,
 			ItemId.ITEM_SUPER_POTION, ItemId.ITEM_HYPER_POTION, ItemId.ITEM_MAX_POTION,
-			ItemId.ITEM_MAX_POTION, ItemId.ITEM_GREAT_BALL, ItemId.ITEM_ULTRA_BALL,
+			ItemId.ITEM_POKE_BALL, ItemId.ITEM_GREAT_BALL, ItemId.ITEM_ULTRA_BALL,
 			ItemId.ITEM_MASTER_BALL, ItemId.ITEM_RAZZ_BERRY, ItemId.ITEM_LUCKY_EGG,
 			ItemId.ITEM_INCENSE_ORDINARY, ItemId.ITEM_TROY_DISK};
 	

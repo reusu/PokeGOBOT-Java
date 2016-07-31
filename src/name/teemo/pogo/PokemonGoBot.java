@@ -125,7 +125,7 @@ public class PokemonGoBot implements Runnable{
 					}
 				}
 			}catch (Exception e) {
-				// TODO: handle exception
+				logger.error("???",e);
 			}
 		}
 	}

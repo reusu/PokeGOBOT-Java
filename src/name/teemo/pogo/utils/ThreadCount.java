@@ -1,5 +1,7 @@
 package name.teemo.pogo.utils;
 
+import java.util.Calendar;
+
 public class ThreadCount {
 	private Integer runThreadCount;
 	private Integer catchPokemonCount;
@@ -8,6 +10,7 @@ public class ThreadCount {
 	private Integer dropPokestopItem;
 	private Integer getExperience;
 	private Boolean waking;
+	private Long upWalkTime;
 	public ThreadCount() {
 		runThreadCount = 0;
 		catchPokemonCount = 0;
@@ -16,6 +19,7 @@ public class ThreadCount {
 		dropPokestopItem = 0;
 		getExperience = 0;
 		waking = false;
+		upWalkTime = Calendar.getInstance().getTimeInMillis();
 	}
 
 	public Integer getRunThreadCount() {
@@ -72,6 +76,14 @@ public class ThreadCount {
 
 	public void setWaking(Boolean waking) {
 		this.waking = waking;
+	}
+
+	public Long getUpWalkTime() {
+		return upWalkTime;
+	}
+
+	public void setUpWalkTime(Long upWalkTime) {
+		this.upWalkTime = upWalkTime;
 	}	
 
 	
