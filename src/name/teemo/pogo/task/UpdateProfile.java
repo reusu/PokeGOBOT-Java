@@ -26,8 +26,6 @@ public class UpdateProfile implements Runnable{
 	public void run() {
 		while(true){
 			try{
-				threadCount.setRunThreadCount(threadCount.getRunThreadCount()+1);
-				
 				int requiredXp[] = {
 						0, 1000, 3000, 6000, 10000, 15000, 21000, 28000, 36000, 45000, 
 						55000, 65000, 75000, 85000, 100000, 120000, 140000, 160000, 185000, 210000, 
@@ -67,7 +65,6 @@ public class UpdateProfile implements Runnable{
 			}catch (Exception e) {
 				logger.error("更新账号进程发生错误",e);
 			}finally {
-				threadCount.setRunThreadCount(threadCount.getRunThreadCount()-1);
 				try {
 					Thread.sleep(Long.parseLong(Config.getProperty("bot_upprofile_await")));
 				} catch (Exception e) {
