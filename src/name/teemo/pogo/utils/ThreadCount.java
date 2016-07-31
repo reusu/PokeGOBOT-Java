@@ -7,7 +7,7 @@ public class ThreadCount {
 	private Integer getPokestopItem;
 	private Integer dropPokestopItem;
 	private Integer getExperience;
-	
+	private Boolean waking;
 	public ThreadCount() {
 		runThreadCount = 0;
 		catchPokemonCount = 0;
@@ -15,6 +15,7 @@ public class ThreadCount {
 		getPokestopItem = 0;
 		dropPokestopItem = 0;
 		getExperience = 0;
+		waking = false;
 	}
 
 	public Integer getRunThreadCount() {
@@ -63,6 +64,14 @@ public class ThreadCount {
 
 	public void setGetExperience(Integer getExperience) {
 		this.getExperience = getExperience;
+	}
+
+	public Boolean getWaking() {
+		return waking;
+	}
+
+	public void setWaking(Boolean waking) {
+		this.waking = waking;
 	}	
 
 	

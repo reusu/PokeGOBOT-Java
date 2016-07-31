@@ -54,7 +54,7 @@ public class CatchNearbyPokemon implements Runnable{
 			}else{
 				
 				List<CatchablePokemon> catchablePokemons = pokemonGo.getMap().getCatchablePokemon();
-				logger.info("检索到周边有可以抓的宝可梦 " + catchablePokemons.size() + " 只");
+//				logger.info("检索到周边有可以抓的宝可梦 " + catchablePokemons.size() + " 只");
 				if(catchablePokemons.size()>0){
 					Iterator<CatchablePokemon> catchablePokemonIter = catchablePokemons.iterator();
 					while(catchablePokemonIter.hasNext()){
@@ -100,7 +100,7 @@ public class CatchNearbyPokemon implements Runnable{
 					                    logger.info("获得了 " + catchResult.getXpList().get(0) + " 经验值 " + catchResult.getCandyList().get(0)  + " 糖果 " + catchResult.getStardustList().get(0)  + " 星辰");
 					                    threadCount.setCatchPokemonCount(threadCount.getCatchPokemonCount() + 1);
 					                    threadCount.setGetExperience(threadCount.getGetExperience() + catchResult.getXpList().get(0));
-					                Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
+					                    Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
 					                }else{
 					                	logger.info("捕捉失败，原因: " + encounterResult.getStatus());
 					                }

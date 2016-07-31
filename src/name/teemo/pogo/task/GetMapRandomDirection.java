@@ -22,13 +22,15 @@ public class GetMapRandomDirection implements Runnable{
 	@Override
 	public void run() {
 		try{
-			Double lat = pokemonGo.getLatitude() + randomLatLng();
-			Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
-			Double lng = pokemonGo.getLongitude() + randomLatLng();
-			Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
-			logger.info("探索地图信息 (" + lat + ", " + lng + ")");
-			pokemonGo.setLocation(lat, lng, 0.0);
-			Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
+			if(!threadCount.getWaking()){
+				Double lat = pokemonGo.getLatitude() + randomLatLng();
+				Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
+				Double lng = pokemonGo.getLongitude() + randomLatLng();
+				Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
+				logger.info("探索地图信息 (" + lat + ", " + lng + ")");
+				pokemonGo.setLocation(lat, lng, 0.0);
+				Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
+			}
 		}catch (Exception e) {
 			logger.error("探索地图进程发生错误",e);
 		}finally {

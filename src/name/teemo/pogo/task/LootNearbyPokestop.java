@@ -70,10 +70,10 @@ public class LootNearbyPokestop implements Runnable{
 					}else if(result.getResult() == Result.NO_RESULT_SET ){
 						logger.info("未知异常");
 					}
-				}else if(!pokestop.inRange()){
+				}else if(!pokestop.inRange() && !threadCount.getWaking()){
 					logger.info("移动到较远的补给站");
-					pokemonGo.setLocation(pokestop.getLatitude(), pokestop.getLongitude(), 0.0);
-					Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
+					S2LatLng target = S2LatLng.fromDegrees(pokestop.getLatitude(), pokestop.getLongitude());
+					walk(target);
 					break;
 				}
 			}
@@ -98,4 +98,26 @@ public class LootNearbyPokestop implements Runnable{
 		}
 	}
 	
+	private void walk(S2LatLng end) throws InterruptedException{
+		S2LatLng start = S2LatLng.fromDegrees(pokemonGo.getLatitude(), pokemonGo.getLongitude());
+		S2LatLng diff = end.sub(start);
+		double distance = start.getEarthDistance(end);
+		double speed = Double.parseDouble(Config.getProperty("bot_walk_speed"));
+		double timeRequired = distance / speed;
+		long timeout = 350L;
+		double stepsRequired = timeRequired / ((double)timeout / (double)1000);
+		if(stepsRequired==0){
+		}else{
+			double deltaLat = diff.latDegrees() / stepsRequired;
+			double deltaLng = diff.lngDegrees() / stepsRequired;
+			logger.info("正在移动到目标 " + end.toStringDegrees() + " 需要步数 " + stepsRequired  + "步");
+			threadCount.setWaking(true);
+			for(int i=0;i<=(int)stepsRequired;i++){
+				S2LatLng now = S2LatLng.fromDegrees(pokemonGo.getLatitude(), pokemonGo.getLongitude());
+//				logger.info("当前坐标 (" + now.latDegrees() + "," + now.lngDegrees() + ")");
+				pokemonGo.setLocation(now.latDegrees()+ deltaLat, now.lngDegrees() + deltaLng, 0.0);
+				Thread.sleep(timeout);
+			}
+		}
+	}
 }
