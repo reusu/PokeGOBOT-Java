@@ -2949,3 +2949,735 @@ Caused by: com.google.protobuf.InvalidProtocolBufferException: Contents of buffe
 2016-07-31 20:14:05 INFO LootNearbyPokestop:59 - 获得了 1 个 ITEM_POKE_BALL
 2016-07-31 20:14:05 INFO LootNearbyPokestop:59 - 获得了 1 个 ITEM_GREAT_BALL
 2016-07-31 20:14:05 INFO ReleasePokemon:52 - 已放生宝可梦 小拉达
+2016-07-31 20:16:18 INFO PokemonGoBotMain:31 - 正在登录服务器...
+2016-07-31 20:16:23 INFO PokemonGoBotMain:59 - 成功登录帐号 admin@yumao.name
+2016-07-31 20:16:23 INFO PokemonGoBotMain:63 - 初始化空降坐标 (37.807297, -122.429535)
+2016-07-31 20:16:23 INFO PokemonGoBot:40 - 正在获取账号信息...
+2016-07-31 20:16:25 INFO PokemonGoBot:61 - 用户名称:itscaptainteemo
+2016-07-31 20:16:25 INFO PokemonGoBot:62 - 战队信息:TEAM_VALOR
+2016-07-31 20:16:25 INFO PokemonGoBot:63 - 口袋金币:0
+2016-07-31 20:16:25 INFO PokemonGoBot:64 - 星尘数量:42115
+2016-07-31 20:16:25 INFO PokemonGoBot:65 - 达成等级:29
+2016-07-31 20:16:25 INFO PokemonGoBot:66 - 当前经验:1874935
+2016-07-31 20:16:25 INFO PokemonGoBot:67 - 口袋银行:34/300
+2016-07-31 20:16:25 INFO PokemonGoBot:68 - 道具包裹:14/500
+2016-07-31 20:16:25 INFO PokemonGoBot:79 - 持有宝可梦:<NAME/CP/IV>
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:阿柏怪 / CP:1272 / IV:93.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:风速狗 / CP:2547 / IV:98.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:刺甲贝 / CP:1156 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:快龙 / CP:1093 / IV:96.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:伊布 / CP:235 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:顽皮雷弹 / CP:1016 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:椰蛋树 / CP:1803 / IV:96.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:火伊布 / CP:2284 / IV:100.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:隆隆岩 / CP:913 / IV:93.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:暴鲤龙 / CP:1521 / IV:96.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:鬼斯通 / CP:1169 / IV:93.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:雷伊布 / CP:814 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:迷唇姐 / CP:961 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:巨钳蟹 / CP:799 / IV:96.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:鸭嘴火兽 / CP:831 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:嘎啦嘎啦 / CP:651 / IV:93.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:多刺菊石兽 / CP:1000 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:派拉斯特 / CP:885 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:大比鸟 / CP:1763 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:凯罗斯 / CP:538 / IV:96.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:蚊香泳士 / CP:1417 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:火暴猴 / CP:1059 / IV:98.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:烈焰马 / CP:926 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:穿山王 / CP:1025 / IV:96.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:飞天螳螂 / CP:1168 / IV:93.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:海刺龙 / CP:972 / IV:96.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:金鱼王 / CP:1151 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:呆壳兽 / CP:1469 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:宝石海星 / CP:1116 / IV:98.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:毒刺水母 / CP:1258 / IV:93.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:水伊布 / CP:2422 / IV:98.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:摩鲁蛾 / CP:531 / IV:91.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:妙蛙花 / CP:1499 / IV:93.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:82 - 名称:大食花 / CP:1073 / IV:93.0%
+2016-07-31 20:16:25 INFO PokemonGoBot:85 - 正在获取补给站信息...
+2016-07-31 20:16:26 INFO PokemonGoBot:96 - 获取到周边 154 个补给站信息
+2016-07-31 20:16:26 INFO PokemonGoBot:101 - 开始启动Bot线程...
+2016-07-31 20:16:26 INFO LootNearbyPokestop:53 - 正在滑动补给站5819fdfacc624ccc89448526084fa4fe.16
+2016-07-31 20:16:27 INFO GetMapRandomDirection:30 - 探索地图信息 (37.80731896702274, -122.42952742327691)
+2016-07-31 20:16:27 INFO UpdateProfile:59 - 更新账号信息: 当前经验值 1874935 当前等级 29 经验值进度 224935/350000 (64.27 %) 至 下一等级 30
+2016-07-31 20:16:27 INFO UpdateProfile:60 - Bot获得经验值 0 捕捉精灵 0 放生精灵 0 获得道具 0 丢弃道具 0
+2016-07-31 20:16:27 INFO LootNearbyPokestop:57 - 成功的摸了一把补给站 5819fdfacc624ccc89448526084fa4fe.16，获得了 50 经验值
+2016-07-31 20:16:27 INFO LootNearbyPokestop:60 - 获得了 1 个 ITEM_ULTRA_BALL
+2016-07-31 20:16:27 INFO LootNearbyPokestop:60 - 获得了 1 个 ITEM_POKE_BALL
+2016-07-31 20:16:27 INFO LootNearbyPokestop:60 - 获得了 1 个 ITEM_REVIVE
+2016-07-31 20:16:27 INFO LootNearbyPokestop:60 - 获得了 1 个 ITEM_GREAT_BALL
+2016-07-31 20:16:33 INFO GetMapRandomDirection:30 - 探索地图信息 (37.807328714700105, -122.4295130665702)
+2016-07-31 20:16:36 INFO DropUselessItems:50 - 丢弃了 1 个 ITEM_REVIVE
+2016-07-31 20:16:39 INFO GetMapRandomDirection:30 - 探索地图信息 (37.807306000672334, -122.42956034824218)
+2016-07-31 20:17:36 INFO PokemonGoBotMain:31 - 正在登录服务器...
+2016-07-31 20:17:41 INFO PokemonGoBotMain:59 - 成功登录帐号 admin@yumao.name
+2016-07-31 20:17:42 INFO PokemonGoBotMain:63 - 初始化空降坐标 (37.807297, -122.429535)
+2016-07-31 20:17:42 INFO PokemonGoBot:40 - 正在获取账号信息...
+2016-07-31 20:17:43 INFO PokemonGoBot:61 - 用户名称:itscaptainteemo
+2016-07-31 20:17:43 INFO PokemonGoBot:62 - 战队信息:TEAM_VALOR
+2016-07-31 20:17:43 INFO PokemonGoBot:63 - 口袋金币:0
+2016-07-31 20:17:43 INFO PokemonGoBot:64 - 星尘数量:42115
+2016-07-31 20:17:43 INFO PokemonGoBot:65 - 达成等级:29
+2016-07-31 20:17:43 INFO PokemonGoBot:66 - 当前经验:1874985
+2016-07-31 20:17:43 INFO PokemonGoBot:67 - 口袋银行:34/300
+2016-07-31 20:17:43 INFO PokemonGoBot:68 - 道具包裹:14/500
+2016-07-31 20:17:43 INFO PokemonGoBot:79 - 持有宝可梦:<NAME/CP/IV>
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:阿柏怪 / CP:1272 / IV:93.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:风速狗 / CP:2547 / IV:98.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:刺甲贝 / CP:1156 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:快龙 / CP:1093 / IV:96.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:伊布 / CP:235 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:顽皮雷弹 / CP:1016 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:椰蛋树 / CP:1803 / IV:96.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:火伊布 / CP:2284 / IV:100.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:隆隆岩 / CP:913 / IV:93.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:暴鲤龙 / CP:1521 / IV:96.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:鬼斯通 / CP:1169 / IV:93.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:雷伊布 / CP:814 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:迷唇姐 / CP:961 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:巨钳蟹 / CP:799 / IV:96.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:鸭嘴火兽 / CP:831 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:嘎啦嘎啦 / CP:651 / IV:93.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:多刺菊石兽 / CP:1000 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:派拉斯特 / CP:885 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:大比鸟 / CP:1763 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:凯罗斯 / CP:538 / IV:96.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:蚊香泳士 / CP:1417 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:火暴猴 / CP:1059 / IV:98.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:烈焰马 / CP:926 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:穿山王 / CP:1025 / IV:96.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:飞天螳螂 / CP:1168 / IV:93.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:海刺龙 / CP:972 / IV:96.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:金鱼王 / CP:1151 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:呆壳兽 / CP:1469 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:宝石海星 / CP:1116 / IV:98.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:毒刺水母 / CP:1258 / IV:93.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:水伊布 / CP:2422 / IV:98.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:摩鲁蛾 / CP:531 / IV:91.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:妙蛙花 / CP:1499 / IV:93.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:82 - 名称:大食花 / CP:1073 / IV:93.0%
+2016-07-31 20:17:43 INFO PokemonGoBot:85 - 正在获取补给站信息...
+2016-07-31 20:17:44 INFO PokemonGoBot:96 - 获取到周边 154 个补给站信息
+2016-07-31 20:17:44 INFO PokemonGoBot:101 - 开始启动Bot线程...
+2016-07-31 20:17:45 INFO GetMapRandomDirection:30 - 探索地图信息 (37.807264446277735, -122.42951837944732)
+2016-07-31 20:17:46 INFO UpdateProfile:59 - 更新账号信息: 当前经验值 1874985 当前等级 29 经验值进度 224985/350000 (64.28 %) 至 下一等级 30
+2016-07-31 20:17:46 INFO UpdateProfile:60 - Bot获得经验值 0 捕捉精灵 0 放生精灵 0 获得道具 0 丢弃道具 0
+2016-07-31 20:17:56 INFO GetMapRandomDirection:30 - 探索地图信息 (37.807276400553604, -122.42947832381255)
+2016-07-31 20:18:11 INFO GetMapRandomDirection:30 - 探索地图信息 (37.80726049553838, -122.42951565398249)
+2016-07-31 20:21:07 INFO PokemonGoBotMain:31 - 正在登录服务器...
+2016-07-31 20:21:11 INFO PokemonGoBotMain:59 - 成功登录帐号 admin@yumao.name
+2016-07-31 20:21:12 INFO PokemonGoBotMain:63 - 初始化空降坐标 (37.807297, -122.429535)
+2016-07-31 20:21:12 INFO PokemonGoBot:40 - 正在获取账号信息...
+2016-07-31 20:21:13 INFO PokemonGoBot:61 - 用户名称:itscaptainteemo
+2016-07-31 20:21:13 INFO PokemonGoBot:62 - 战队信息:TEAM_VALOR
+2016-07-31 20:21:13 INFO PokemonGoBot:63 - 口袋金币:0
+2016-07-31 20:21:13 INFO PokemonGoBot:64 - 星尘数量:42115
+2016-07-31 20:21:13 INFO PokemonGoBot:65 - 达成等级:29
+2016-07-31 20:21:13 INFO PokemonGoBot:66 - 当前经验:1874985
+2016-07-31 20:21:13 INFO PokemonGoBot:67 - 口袋银行:34/300
+2016-07-31 20:21:13 INFO PokemonGoBot:68 - 道具包裹:14/500
+2016-07-31 20:21:13 INFO PokemonGoBot:79 - 持有宝可梦:<NAME/CP/IV>
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:阿柏怪 / CP:1272 / IV:93.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:风速狗 / CP:2547 / IV:98.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:刺甲贝 / CP:1156 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:快龙 / CP:1093 / IV:96.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:伊布 / CP:235 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:顽皮雷弹 / CP:1016 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:椰蛋树 / CP:1803 / IV:96.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:火伊布 / CP:2284 / IV:100.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:隆隆岩 / CP:913 / IV:93.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:暴鲤龙 / CP:1521 / IV:96.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:鬼斯通 / CP:1169 / IV:93.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:雷伊布 / CP:814 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:迷唇姐 / CP:961 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:巨钳蟹 / CP:799 / IV:96.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:鸭嘴火兽 / CP:831 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:嘎啦嘎啦 / CP:651 / IV:93.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:多刺菊石兽 / CP:1000 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:派拉斯特 / CP:885 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:大比鸟 / CP:1763 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:凯罗斯 / CP:538 / IV:96.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:蚊香泳士 / CP:1417 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:火暴猴 / CP:1059 / IV:98.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:烈焰马 / CP:926 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:穿山王 / CP:1025 / IV:96.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:飞天螳螂 / CP:1168 / IV:93.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:海刺龙 / CP:972 / IV:96.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:金鱼王 / CP:1151 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:呆壳兽 / CP:1469 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:宝石海星 / CP:1116 / IV:98.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:毒刺水母 / CP:1258 / IV:93.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:水伊布 / CP:2422 / IV:98.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:摩鲁蛾 / CP:531 / IV:91.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:妙蛙花 / CP:1499 / IV:93.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:82 - 名称:大食花 / CP:1073 / IV:93.0%
+2016-07-31 20:21:13 INFO PokemonGoBot:85 - 正在获取补给站信息...
+2016-07-31 20:21:15 INFO PokemonGoBot:96 - 获取到周边 154 个补给站信息
+2016-07-31 20:21:15 INFO PokemonGoBot:101 - 开始启动Bot线程...
+2016-07-31 20:21:16 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80729362611923, -122.42953965810248)
+2016-07-31 20:21:16 INFO UpdateProfile:59 - 更新账号信息: 当前经验值 1874985 当前等级 29 经验值进度 224985/350000 (64.28 %) 至 下一等级 30
+2016-07-31 20:21:16 INFO UpdateProfile:60 - Bot获得经验值 0 捕捉精灵 0 放生精灵 0 获得道具 0 丢弃道具 0
+2016-07-31 20:21:22 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80725470375405, -122.42954860189768)
+2016-07-31 20:21:23 INFO CatchNearbyPokemon:66 - 野生的宝可梦 杰尼龟 从草里跳出来!
+2016-07-31 20:21:24 INFO CatchNearbyPokemon:71 - 遇到宝可梦 杰尼龟 CP 141
+2016-07-31 20:21:24 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:21:25 INFO CatchNearbyPokemon:100 - 抓住了一只 杰尼龟 CP 37.78% IV 37.77777777777778
+2016-07-31 20:21:25 INFO CatchNearbyPokemon:101 - 获得了 100 经验值 3 糖果 100 星辰
+2016-07-31 20:21:26 INFO CatchNearbyPokemon:66 - 野生的宝可梦 凯罗斯 从草里跳出来!
+2016-07-31 20:21:27 INFO CatchNearbyPokemon:71 - 遇到宝可梦 凯罗斯 CP 1163
+2016-07-31 20:21:28 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:21:29 INFO CatchNearbyPokemon:100 - 抓住了一只 凯罗斯 CP 68.89% IV 68.88888888888889
+2016-07-31 20:21:29 INFO CatchNearbyPokemon:101 - 获得了 100 经验值 3 糖果 100 星辰
+2016-07-31 20:21:30 INFO ReleasePokemon:49 - 正在放生宝可梦 杰尼龟 原因 37.77777777777778 IV不达标
+2016-07-31 20:21:31 INFO ReleasePokemon:53 - 已放生宝可梦 杰尼龟
+2016-07-31 20:21:31 INFO ReleasePokemon:49 - 正在放生宝可梦 凯罗斯 原因 68.88888888888889 IV不达标
+2016-07-31 20:21:33 INFO ReleasePokemon:53 - 已放生宝可梦 凯罗斯
+2016-07-31 20:21:37 INFO GetMapRandomDirection:31 - 探索地图信息 (37.807529579493696, -122.43003076542604)
+2016-07-31 20:21:38 INFO LootNearbyPokestop:54 - 正在滑动补给站3ce7b6f1c2254f959b8dcea927b8d0d1.16
+2016-07-31 20:21:39 INFO LootNearbyPokestop:58 - 成功的摸了一把补给站 3ce7b6f1c2254f959b8dcea927b8d0d1.16，获得了 50 经验值
+2016-07-31 20:21:39 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_POKE_BALL
+2016-07-31 20:21:39 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_POTION
+2016-07-31 20:21:39 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_GREAT_BALL
+2016-07-31 20:22:15 INFO LootNearbyPokestop:75 - 移动到较远的补给站
+2016-07-31 20:22:15 INFO LootNearbyPokestop:126 - 正在移动到目标 (37.804966, -122.4175) 需要步数 638.4654472485968步
+2016-07-31 20:22:15 INFO CatchNearbyPokemon:66 - 野生的宝可梦 烈雀 从草里跳出来!
+2016-07-31 20:22:16 INFO CatchNearbyPokemon:71 - 遇到宝可梦 烈雀 CP 67
+2016-07-31 20:22:17 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:22:18 INFO CatchNearbyPokemon:100 - 抓住了一只 烈雀 CP 80.0% IV 80.0
+2016-07-31 20:22:18 INFO CatchNearbyPokemon:101 - 获得了 100 经验值 3 糖果 100 星辰
+2016-07-31 20:22:19 INFO CatchNearbyPokemon:66 - 野生的宝可梦 可达鸭 从草里跳出来!
+2016-07-31 20:22:19 INFO LootNearbyPokestop:54 - 正在滑动补给站d0c453e3e99a43069531073a300d129f.16
+2016-07-31 20:22:20 INFO CatchNearbyPokemon:71 - 遇到宝可梦 可达鸭 CP 521
+2016-07-31 20:22:20 INFO LootNearbyPokestop:58 - 成功的摸了一把补给站 d0c453e3e99a43069531073a300d129f.16，获得了 50 经验值
+2016-07-31 20:22:20 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_POKE_BALL
+2016-07-31 20:22:20 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_POKE_BALL
+2016-07-31 20:22:20 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_POKE_BALL
+2016-07-31 20:22:20 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_RAZZ_BERRY
+2016-07-31 20:22:20 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:22:21 INFO CatchNearbyPokemon:66 - 野生的宝可梦 可达鸭 从草里跳出来!
+2016-07-31 20:22:22 INFO CatchNearbyPokemon:71 - 遇到宝可梦 可达鸭 CP 521
+2016-07-31 20:22:22 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:22:23 ERROR CatchNearbyPokemon:123 - 精灵捕捉进程发生错误
+com.pokegoapi.exceptions.RemoteServerException: com.google.protobuf.InvalidProtocolBufferException: Contents of buffer are null
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.useItem(CatchablePokemon.java:397)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:335)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:297)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:248)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:230)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:212)
+	at name.teemo.pogo.task.CatchNearbyPokemon.run(CatchNearbyPokemon.java:94)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.google.protobuf.InvalidProtocolBufferException: Contents of buffer are null
+	at com.pokegoapi.main.ServerRequest.getData(ServerRequest.java:66)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.useItem(CatchablePokemon.java:395)
+	... 9 more
+2016-07-31 20:22:23 INFO CatchNearbyPokemon:100 - 抓住了一只 可达鸭 CP 22.22% IV 22.22222222222222
+2016-07-31 20:22:23 INFO CatchNearbyPokemon:101 - 获得了 100 经验值 3 糖果 100 星辰
+2016-07-31 20:22:23 INFO ReleasePokemon:49 - 正在放生宝可梦 烈雀 原因 80.0 IV不达标
+2016-07-31 20:22:24 INFO ReleasePokemon:53 - 已放生宝可梦 烈雀
+2016-07-31 20:22:24 INFO ReleasePokemon:49 - 正在放生宝可梦 可达鸭 原因 22.22222222222222 IV不达标
+2016-07-31 20:22:25 INFO DropUselessItems:51 - 丢弃了 1 个 ITEM_POTION
+2016-07-31 20:22:26 INFO ReleasePokemon:53 - 已放生宝可梦 可达鸭
+2016-07-31 20:22:40 INFO PokemonGoBotMain:31 - 正在登录服务器...
+2016-07-31 20:22:45 INFO PokemonGoBotMain:59 - 成功登录帐号 admin@yumao.name
+2016-07-31 20:22:46 INFO PokemonGoBotMain:63 - 初始化空降坐标 (37.807297, -122.429535)
+2016-07-31 20:22:46 INFO PokemonGoBot:40 - 正在获取账号信息...
+2016-07-31 20:22:47 INFO PokemonGoBot:61 - 用户名称:itscaptainteemo
+2016-07-31 20:22:47 INFO PokemonGoBot:62 - 战队信息:TEAM_VALOR
+2016-07-31 20:22:47 INFO PokemonGoBot:63 - 口袋金币:0
+2016-07-31 20:22:47 INFO PokemonGoBot:64 - 星尘数量:42515
+2016-07-31 20:22:47 INFO PokemonGoBot:65 - 达成等级:29
+2016-07-31 20:22:47 INFO PokemonGoBot:66 - 当前经验:1875925
+2016-07-31 20:22:47 INFO PokemonGoBot:67 - 口袋银行:34/300
+2016-07-31 20:22:47 INFO PokemonGoBot:68 - 道具包裹:14/500
+2016-07-31 20:22:47 INFO PokemonGoBot:79 - 持有宝可梦:<NAME/CP/IV>
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:阿柏怪 / CP:1272 / IV:93.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:风速狗 / CP:2547 / IV:98.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:刺甲贝 / CP:1156 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:快龙 / CP:1093 / IV:96.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:伊布 / CP:235 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:顽皮雷弹 / CP:1016 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:椰蛋树 / CP:1803 / IV:96.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:火伊布 / CP:2284 / IV:100.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:隆隆岩 / CP:913 / IV:93.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:暴鲤龙 / CP:1521 / IV:96.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:鬼斯通 / CP:1169 / IV:93.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:雷伊布 / CP:814 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:迷唇姐 / CP:961 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:巨钳蟹 / CP:799 / IV:96.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:鸭嘴火兽 / CP:831 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:嘎啦嘎啦 / CP:651 / IV:93.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:多刺菊石兽 / CP:1000 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:派拉斯特 / CP:885 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:大比鸟 / CP:1763 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:凯罗斯 / CP:538 / IV:96.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:蚊香泳士 / CP:1417 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:火暴猴 / CP:1059 / IV:98.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:烈焰马 / CP:926 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:穿山王 / CP:1025 / IV:96.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:飞天螳螂 / CP:1168 / IV:93.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:海刺龙 / CP:972 / IV:96.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:金鱼王 / CP:1151 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:呆壳兽 / CP:1469 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:宝石海星 / CP:1116 / IV:98.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:毒刺水母 / CP:1258 / IV:93.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:水伊布 / CP:2422 / IV:98.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:摩鲁蛾 / CP:531 / IV:91.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:妙蛙花 / CP:1499 / IV:93.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:82 - 名称:大食花 / CP:1073 / IV:93.0%
+2016-07-31 20:22:47 INFO PokemonGoBot:85 - 正在获取补给站信息...
+2016-07-31 20:22:49 INFO PokemonGoBot:96 - 获取到周边 154 个补给站信息
+2016-07-31 20:22:49 INFO PokemonGoBot:101 - 开始启动Bot线程...
+2016-07-31 20:22:49 INFO LootNearbyPokestop:54 - 正在滑动补给站5819fdfacc624ccc89448526084fa4fe.16
+2016-07-31 20:22:50 INFO GetMapRandomDirection:31 - 探索地图信息 (37.807294035392474, -122.42950450783836)
+2016-07-31 20:22:50 INFO LootNearbyPokestop:58 - 成功的摸了一把补给站 5819fdfacc624ccc89448526084fa4fe.16，获得了 50 经验值
+2016-07-31 20:22:50 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_POKE_BALL
+2016-07-31 20:22:50 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_POKE_BALL
+2016-07-31 20:22:50 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_REVIVE
+2016-07-31 20:22:50 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_GREAT_BALL
+2016-07-31 20:22:50 INFO UpdateProfile:59 - 更新账号信息: 当前经验值 1875925 当前等级 29 经验值进度 225925/350000 (64.55 %) 至 下一等级 30
+2016-07-31 20:22:50 INFO UpdateProfile:60 - Bot获得经验值 50 捕捉精灵 0 放生精灵 0 获得道具 4 丢弃道具 0
+2016-07-31 20:22:56 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80732688453479, -122.42955291058145)
+2016-07-31 20:22:58 INFO DropUselessItems:51 - 丢弃了 1 个 ITEM_REVIVE
+2016-07-31 20:23:02 INFO GetMapRandomDirection:31 - 探索地图信息 (37.8073709632003, -122.42959640626015)
+2016-07-31 20:23:43 INFO PokemonGoBotMain:31 - 正在登录服务器...
+2016-07-31 20:23:48 INFO PokemonGoBotMain:59 - 成功登录帐号 admin@yumao.name
+2016-07-31 20:23:48 INFO PokemonGoBotMain:63 - 初始化空降坐标 (37.807297, -122.429535)
+2016-07-31 20:23:48 INFO PokemonGoBot:40 - 正在获取账号信息...
+2016-07-31 20:23:50 INFO PokemonGoBot:61 - 用户名称:itscaptainteemo
+2016-07-31 20:23:50 INFO PokemonGoBot:62 - 战队信息:TEAM_VALOR
+2016-07-31 20:23:50 INFO PokemonGoBot:63 - 口袋金币:0
+2016-07-31 20:23:50 INFO PokemonGoBot:64 - 星尘数量:42515
+2016-07-31 20:23:50 INFO PokemonGoBot:65 - 达成等级:29
+2016-07-31 20:23:50 INFO PokemonGoBot:66 - 当前经验:1875975
+2016-07-31 20:23:50 INFO PokemonGoBot:67 - 口袋银行:34/300
+2016-07-31 20:23:50 INFO PokemonGoBot:68 - 道具包裹:14/500
+2016-07-31 20:23:50 INFO PokemonGoBot:79 - 持有宝可梦:<NAME/CP/IV>
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:阿柏怪 / CP:1272 / IV:93.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:风速狗 / CP:2547 / IV:98.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:刺甲贝 / CP:1156 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:快龙 / CP:1093 / IV:96.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:伊布 / CP:235 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:顽皮雷弹 / CP:1016 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:椰蛋树 / CP:1803 / IV:96.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:火伊布 / CP:2284 / IV:100.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:隆隆岩 / CP:913 / IV:93.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:暴鲤龙 / CP:1521 / IV:96.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:鬼斯通 / CP:1169 / IV:93.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:雷伊布 / CP:814 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:迷唇姐 / CP:961 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:巨钳蟹 / CP:799 / IV:96.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:鸭嘴火兽 / CP:831 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:嘎啦嘎啦 / CP:651 / IV:93.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:多刺菊石兽 / CP:1000 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:派拉斯特 / CP:885 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:大比鸟 / CP:1763 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:凯罗斯 / CP:538 / IV:96.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:蚊香泳士 / CP:1417 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:火暴猴 / CP:1059 / IV:98.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:烈焰马 / CP:926 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:穿山王 / CP:1025 / IV:96.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:飞天螳螂 / CP:1168 / IV:93.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:海刺龙 / CP:972 / IV:96.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:金鱼王 / CP:1151 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:呆壳兽 / CP:1469 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:宝石海星 / CP:1116 / IV:98.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:毒刺水母 / CP:1258 / IV:93.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:水伊布 / CP:2422 / IV:98.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:摩鲁蛾 / CP:531 / IV:91.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:妙蛙花 / CP:1499 / IV:93.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:82 - 名称:大食花 / CP:1073 / IV:93.0%
+2016-07-31 20:23:50 INFO PokemonGoBot:85 - 正在获取补给站信息...
+2016-07-31 20:23:51 INFO PokemonGoBot:96 - 获取到周边 154 个补给站信息
+2016-07-31 20:23:51 INFO PokemonGoBot:101 - 开始启动Bot线程...
+2016-07-31 20:23:52 INFO GetMapRandomDirection:31 - 探索地图信息 (37.807306334301494, -122.42957085476002)
+2016-07-31 20:23:53 INFO UpdateProfile:59 - 更新账号信息: 当前经验值 1875975 当前等级 29 经验值进度 225975/350000 (64.56 %) 至 下一等级 30
+2016-07-31 20:23:53 INFO UpdateProfile:60 - Bot获得经验值 0 捕捉精灵 0 放生精灵 0 获得道具 0 丢弃道具 0
+2016-07-31 20:23:58 INFO GetMapRandomDirection:31 - 探索地图信息 (37.807268217738454, -122.429539956628)
+2016-07-31 20:24:04 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80723891182996, -122.42956361643647)
+2016-07-31 20:24:51 INFO LootNearbyPokestop:75 - 移动到较远的补给站
+2016-07-31 20:24:51 INFO LootNearbyPokestop:126 - 正在移动到目标 (37.807731, -122.41902000000002) 需要步数 520.962576730244步
+2016-07-31 20:25:09 INFO CatchNearbyPokemon:66 - 野生的宝可梦 伊布 从草里跳出来!
+2016-07-31 20:25:11 INFO CatchNearbyPokemon:71 - 遇到宝可梦 伊布 CP 622
+2016-07-31 20:25:11 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:25:12 INFO CatchNearbyPokemon:100 - 抓住了一只 伊布 CP 82.22% IV 82.22222222222223
+2016-07-31 20:25:12 INFO CatchNearbyPokemon:101 - 获得了 100 经验值 3 糖果 100 星辰
+2016-07-31 20:25:14 INFO LootNearbyPokestop:54 - 正在滑动补给站78ba4d252924417f80b91ebd207d2cee.16
+2016-07-31 20:25:14 INFO LootNearbyPokestop:58 - 成功的摸了一把补给站 78ba4d252924417f80b91ebd207d2cee.16，获得了 50 经验值
+2016-07-31 20:25:14 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_POTION
+2016-07-31 20:25:14 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_RAZZ_BERRY
+2016-07-31 20:25:14 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_GREAT_BALL
+2016-07-31 20:25:15 INFO CatchNearbyPokemon:66 - 野生的宝可梦 超音蝠 从草里跳出来!
+2016-07-31 20:25:15 INFO ReleasePokemon:49 - 正在放生宝可梦 伊布 原因 82.22222222222221 IV不达标
+2016-07-31 20:25:16 INFO CatchNearbyPokemon:71 - 遇到宝可梦 超音蝠 CP 42
+2016-07-31 20:25:17 INFO PokemonGoBotMain:31 - 正在登录服务器...
+2016-07-31 20:25:22 INFO PokemonGoBotMain:59 - 成功登录帐号 admin@yumao.name
+2016-07-31 20:25:23 INFO PokemonGoBotMain:63 - 初始化空降坐标 (37.807297, -122.429535)
+2016-07-31 20:25:23 INFO PokemonGoBot:40 - 正在获取账号信息...
+2016-07-31 20:25:24 INFO PokemonGoBot:61 - 用户名称:itscaptainteemo
+2016-07-31 20:25:24 INFO PokemonGoBot:62 - 战队信息:TEAM_VALOR
+2016-07-31 20:25:24 INFO PokemonGoBot:63 - 口袋金币:0
+2016-07-31 20:25:24 INFO PokemonGoBot:64 - 星尘数量:42615
+2016-07-31 20:25:24 INFO PokemonGoBot:65 - 达成等级:29
+2016-07-31 20:25:24 INFO PokemonGoBot:66 - 当前经验:1876235
+2016-07-31 20:25:24 INFO PokemonGoBot:67 - 口袋银行:34/300
+2016-07-31 20:25:24 INFO PokemonGoBot:68 - 道具包裹:14/500
+2016-07-31 20:25:24 INFO PokemonGoBot:79 - 持有宝可梦:<NAME/CP/IV>
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:阿柏怪 / CP:1272 / IV:93.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:风速狗 / CP:2547 / IV:98.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:刺甲贝 / CP:1156 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:快龙 / CP:1093 / IV:96.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:伊布 / CP:235 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:顽皮雷弹 / CP:1016 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:椰蛋树 / CP:1803 / IV:96.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:火伊布 / CP:2284 / IV:100.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:隆隆岩 / CP:913 / IV:93.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:暴鲤龙 / CP:1521 / IV:96.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:鬼斯通 / CP:1169 / IV:93.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:雷伊布 / CP:814 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:迷唇姐 / CP:961 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:巨钳蟹 / CP:799 / IV:96.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:鸭嘴火兽 / CP:831 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:嘎啦嘎啦 / CP:651 / IV:93.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:多刺菊石兽 / CP:1000 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:派拉斯特 / CP:885 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:大比鸟 / CP:1763 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:凯罗斯 / CP:538 / IV:96.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:蚊香泳士 / CP:1417 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:火暴猴 / CP:1059 / IV:98.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:烈焰马 / CP:926 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:穿山王 / CP:1025 / IV:96.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:飞天螳螂 / CP:1168 / IV:93.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:海刺龙 / CP:972 / IV:96.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:金鱼王 / CP:1151 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:呆壳兽 / CP:1469 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:宝石海星 / CP:1116 / IV:98.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:毒刺水母 / CP:1258 / IV:93.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:水伊布 / CP:2422 / IV:98.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:摩鲁蛾 / CP:531 / IV:91.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:妙蛙花 / CP:1499 / IV:93.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:82 - 名称:大食花 / CP:1073 / IV:93.0%
+2016-07-31 20:25:24 INFO PokemonGoBot:85 - 正在获取补给站信息...
+2016-07-31 20:25:25 INFO PokemonGoBot:96 - 获取到周边 154 个补给站信息
+2016-07-31 20:25:25 INFO PokemonGoBot:101 - 开始启动Bot线程...
+2016-07-31 20:25:26 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80732743342522, -122.42957655926443)
+2016-07-31 20:25:27 INFO UpdateProfile:59 - 更新账号信息: 当前经验值 1876235 当前等级 29 经验值进度 226235/350000 (64.64 %) 至 下一等级 30
+2016-07-31 20:25:27 INFO UpdateProfile:60 - Bot获得经验值 0 捕捉精灵 0 放生精灵 0 获得道具 0 丢弃道具 0
+2016-07-31 20:25:27 INFO DropUselessItems:51 - 丢弃了 1 个 ITEM_POTION
+2016-07-31 20:25:32 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80731440759887, -122.42956646596346)
+2016-07-31 20:25:38 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80734277368495, -122.4295685104977)
+2016-07-31 20:26:03 INFO PokemonGoBotMain:31 - 正在登录服务器...
+2016-07-31 20:26:08 INFO PokemonGoBotMain:59 - 成功登录帐号 admin@yumao.name
+2016-07-31 20:26:08 INFO PokemonGoBotMain:63 - 初始化空降坐标 (37.807297, -122.429535)
+2016-07-31 20:26:08 INFO PokemonGoBot:40 - 正在获取账号信息...
+2016-07-31 20:26:10 INFO PokemonGoBot:61 - 用户名称:itscaptainteemo
+2016-07-31 20:26:10 INFO PokemonGoBot:62 - 战队信息:TEAM_VALOR
+2016-07-31 20:26:10 INFO PokemonGoBot:63 - 口袋金币:0
+2016-07-31 20:26:10 INFO PokemonGoBot:64 - 星尘数量:42615
+2016-07-31 20:26:10 INFO PokemonGoBot:65 - 达成等级:29
+2016-07-31 20:26:10 INFO PokemonGoBot:66 - 当前经验:1876235
+2016-07-31 20:26:10 INFO PokemonGoBot:67 - 口袋银行:34/300
+2016-07-31 20:26:10 INFO PokemonGoBot:68 - 道具包裹:14/500
+2016-07-31 20:26:10 INFO PokemonGoBot:79 - 持有宝可梦:<NAME/CP/IV>
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:阿柏怪 / CP:1272 / IV:93.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:风速狗 / CP:2547 / IV:98.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:刺甲贝 / CP:1156 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:快龙 / CP:1093 / IV:96.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:伊布 / CP:235 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:顽皮雷弹 / CP:1016 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:椰蛋树 / CP:1803 / IV:96.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:火伊布 / CP:2284 / IV:100.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:隆隆岩 / CP:913 / IV:93.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:暴鲤龙 / CP:1521 / IV:96.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:鬼斯通 / CP:1169 / IV:93.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:雷伊布 / CP:814 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:迷唇姐 / CP:961 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:巨钳蟹 / CP:799 / IV:96.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:鸭嘴火兽 / CP:831 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:嘎啦嘎啦 / CP:651 / IV:93.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:多刺菊石兽 / CP:1000 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:派拉斯特 / CP:885 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:大比鸟 / CP:1763 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:凯罗斯 / CP:538 / IV:96.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:蚊香泳士 / CP:1417 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:火暴猴 / CP:1059 / IV:98.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:烈焰马 / CP:926 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:穿山王 / CP:1025 / IV:96.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:飞天螳螂 / CP:1168 / IV:93.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:海刺龙 / CP:972 / IV:96.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:金鱼王 / CP:1151 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:呆壳兽 / CP:1469 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:宝石海星 / CP:1116 / IV:98.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:毒刺水母 / CP:1258 / IV:93.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:水伊布 / CP:2422 / IV:98.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:摩鲁蛾 / CP:531 / IV:91.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:妙蛙花 / CP:1499 / IV:93.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:82 - 名称:大食花 / CP:1073 / IV:93.0%
+2016-07-31 20:26:10 INFO PokemonGoBot:85 - 正在获取补给站信息...
+2016-07-31 20:26:11 INFO PokemonGoBot:96 - 获取到周边 154 个补给站信息
+2016-07-31 20:26:11 INFO PokemonGoBot:101 - 开始启动Bot线程...
+2016-07-31 20:26:12 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80726370002246, -122.42949375302906)
+2016-07-31 20:26:12 INFO UpdateProfile:59 - 更新账号信息: 当前经验值 1876235 当前等级 29 经验值进度 226235/350000 (64.64 %) 至 下一等级 30
+2016-07-31 20:26:12 INFO UpdateProfile:60 - Bot获得经验值 0 捕捉精灵 0 放生精灵 0 获得道具 0 丢弃道具 0
+2016-07-31 20:26:18 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80721672126914, -122.42945096599175)
+2016-07-31 20:26:19 INFO CatchNearbyPokemon:66 - 野生的宝可梦 NIDORAN_FEMALE 从草里跳出来!
+2016-07-31 20:26:20 INFO CatchNearbyPokemon:71 - 遇到宝可梦 NIDORAN_FEMALE CP 476
+2016-07-31 20:26:20 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:26:22 INFO CatchNearbyPokemon:106 - 捕捉失败，原因: ENCOUNTER_SUCCESS
+2016-07-31 20:26:27 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80694002186538, -122.42929192792688)
+2016-07-31 20:27:31 INFO LootNearbyPokestop:75 - 移动到较远的补给站
+2016-07-31 20:27:32 INFO LootNearbyPokestop:126 - 正在移动到目标 (37.807384, -122.42940600000001) 需要步数 28.282802015535516步
+2016-07-31 20:28:10 INFO CatchNearbyPokemon:66 - 野生的宝可梦 波波 从草里跳出来!
+2016-07-31 20:28:11 INFO CatchNearbyPokemon:71 - 遇到宝可梦 波波 CP 130
+2016-07-31 20:28:12 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:28:13 INFO CatchNearbyPokemon:100 - 抓住了一只 波波 CP 37.78% IV 37.77777777777778
+2016-07-31 20:28:13 INFO CatchNearbyPokemon:101 - 获得了 100 经验值 3 糖果 100 星辰
+2016-07-31 20:28:14 INFO ReleasePokemon:49 - 正在放生宝可梦 波波 原因 37.77777777777778 IV不达标
+2016-07-31 20:28:15 INFO ReleasePokemon:53 - 已放生宝可梦 波波
+2016-07-31 20:28:19 INFO GetMapRandomDirection:31 - 探索地图信息 (37.807390629443624, -122.42967351661201)
+2016-07-31 20:28:21 INFO LootNearbyPokestop:54 - 正在滑动补给站5819fdfacc624ccc89448526084fa4fe.16
+2016-07-31 20:28:24 INFO LootNearbyPokestop:58 - 成功的摸了一把补给站 5819fdfacc624ccc89448526084fa4fe.16，获得了 50 经验值
+2016-07-31 20:28:25 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_POKE_BALL
+2016-07-31 20:28:26 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_GREAT_BALL
+2016-07-31 20:28:27 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_GREAT_BALL
+2016-07-31 20:28:34 INFO LootNearbyPokestop:75 - 移动到较远的补给站
+2016-07-31 20:28:35 INFO LootNearbyPokestop:126 - 正在移动到目标 (37.807882, -122.42921) 需要步数 38.258660373611285步
+2016-07-31 20:29:33 INFO PokemonGoBotMain:31 - 正在登录服务器...
+2016-07-31 20:29:38 INFO PokemonGoBotMain:59 - 成功登录帐号 admin@yumao.name
+2016-07-31 20:29:39 INFO PokemonGoBotMain:63 - 初始化空降坐标 (37.807297, -122.429535)
+2016-07-31 20:29:39 INFO PokemonGoBot:40 - 正在获取账号信息...
+2016-07-31 20:29:40 INFO PokemonGoBot:61 - 用户名称:itscaptainteemo
+2016-07-31 20:29:40 INFO PokemonGoBot:62 - 战队信息:TEAM_VALOR
+2016-07-31 20:29:40 INFO PokemonGoBot:63 - 口袋金币:0
+2016-07-31 20:29:40 INFO PokemonGoBot:64 - 星尘数量:42715
+2016-07-31 20:29:40 INFO PokemonGoBot:65 - 达成等级:29
+2016-07-31 20:29:40 INFO PokemonGoBot:66 - 当前经验:1876520
+2016-07-31 20:29:40 INFO PokemonGoBot:67 - 口袋银行:34/300
+2016-07-31 20:29:40 INFO PokemonGoBot:68 - 道具包裹:14/500
+2016-07-31 20:29:40 INFO PokemonGoBot:79 - 持有宝可梦:<NAME/CP/IV>
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:阿柏怪 / CP:1272 / IV:93.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:风速狗 / CP:2547 / IV:98.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:刺甲贝 / CP:1156 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:快龙 / CP:1093 / IV:96.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:伊布 / CP:235 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:顽皮雷弹 / CP:1016 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:椰蛋树 / CP:1803 / IV:96.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:火伊布 / CP:2284 / IV:100.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:隆隆岩 / CP:913 / IV:93.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:暴鲤龙 / CP:1521 / IV:96.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:鬼斯通 / CP:1169 / IV:93.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:雷伊布 / CP:814 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:迷唇姐 / CP:961 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:巨钳蟹 / CP:799 / IV:96.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:鸭嘴火兽 / CP:831 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:嘎啦嘎啦 / CP:651 / IV:93.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:多刺菊石兽 / CP:1000 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:派拉斯特 / CP:885 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:大比鸟 / CP:1763 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:凯罗斯 / CP:538 / IV:96.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:蚊香泳士 / CP:1417 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:火暴猴 / CP:1059 / IV:98.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:烈焰马 / CP:926 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:穿山王 / CP:1025 / IV:96.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:飞天螳螂 / CP:1168 / IV:93.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:海刺龙 / CP:972 / IV:96.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:金鱼王 / CP:1151 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:呆壳兽 / CP:1469 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:宝石海星 / CP:1116 / IV:98.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:毒刺水母 / CP:1258 / IV:93.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:水伊布 / CP:2422 / IV:98.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:摩鲁蛾 / CP:531 / IV:91.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:妙蛙花 / CP:1499 / IV:93.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:82 - 名称:大食花 / CP:1073 / IV:93.0%
+2016-07-31 20:29:40 INFO PokemonGoBot:85 - 正在获取补给站信息...
+2016-07-31 20:29:42 INFO PokemonGoBot:96 - 获取到周边 154 个补给站信息
+2016-07-31 20:29:42 INFO PokemonGoBot:101 - 开始启动Bot线程...
+2016-07-31 20:29:43 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80733958283454, -122.42948672686248)
+2016-07-31 20:29:43 INFO UpdateProfile:59 - 更新账号信息: 当前经验值 1876520 当前等级 29 经验值进度 226520/350000 (64.72 %) 至 下一等级 30
+2016-07-31 20:29:43 INFO UpdateProfile:60 - Bot获得经验值 0 捕捉精灵 0 放生精灵 0 获得道具 0 丢弃道具 0
+2016-07-31 20:29:49 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80729699917671, -122.42953170154188)
+2016-07-31 20:29:50 INFO CatchNearbyPokemon:66 - 野生的宝可梦 杰尼龟 从草里跳出来!
+2016-07-31 20:29:51 INFO CatchNearbyPokemon:71 - 遇到宝可梦 杰尼龟 CP 577
+2016-07-31 20:29:51 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:29:53 INFO CatchNearbyPokemon:106 - 捕捉失败，原因: ENCOUNTER_SUCCESS
+2016-07-31 20:29:53 INFO CatchNearbyPokemon:66 - 野生的宝可梦 超音蝠 从草里跳出来!
+2016-07-31 20:29:54 INFO CatchNearbyPokemon:71 - 遇到宝可梦 超音蝠 CP 295
+2016-07-31 20:29:55 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:29:57 INFO CatchNearbyPokemon:106 - 捕捉失败，原因: ENCOUNTER_SUCCESS
+2016-07-31 20:30:02 INFO GetMapRandomDirection:31 - 探索地图信息 (37.8075362303406, -122.42928052726057)
+2016-07-31 20:31:00 INFO PokemonGoBotMain:31 - 正在登录服务器...
+2016-07-31 20:31:05 INFO PokemonGoBotMain:59 - 成功登录帐号 admin@yumao.name
+2016-07-31 20:31:05 INFO PokemonGoBotMain:63 - 初始化空降坐标 (37.807297, -122.429535)
+2016-07-31 20:31:05 INFO PokemonGoBot:40 - 正在获取账号信息...
+2016-07-31 20:31:07 INFO PokemonGoBot:61 - 用户名称:itscaptainteemo
+2016-07-31 20:31:07 INFO PokemonGoBot:62 - 战队信息:TEAM_VALOR
+2016-07-31 20:31:07 INFO PokemonGoBot:63 - 口袋金币:0
+2016-07-31 20:31:07 INFO PokemonGoBot:64 - 星尘数量:42715
+2016-07-31 20:31:07 INFO PokemonGoBot:65 - 达成等级:29
+2016-07-31 20:31:07 INFO PokemonGoBot:66 - 当前经验:1876570
+2016-07-31 20:31:07 INFO PokemonGoBot:67 - 口袋银行:34/300
+2016-07-31 20:31:07 INFO PokemonGoBot:68 - 道具包裹:14/500
+2016-07-31 20:31:07 INFO PokemonGoBot:79 - 持有宝可梦:<NAME/CP/IV>
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:阿柏怪 / CP:1272 / IV:93.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:风速狗 / CP:2547 / IV:98.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:刺甲贝 / CP:1156 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:快龙 / CP:1093 / IV:96.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:伊布 / CP:235 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:顽皮雷弹 / CP:1016 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:椰蛋树 / CP:1803 / IV:96.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:火伊布 / CP:2284 / IV:100.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:隆隆岩 / CP:913 / IV:93.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:暴鲤龙 / CP:1521 / IV:96.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:鬼斯通 / CP:1169 / IV:93.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:雷伊布 / CP:814 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:迷唇姐 / CP:961 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:巨钳蟹 / CP:799 / IV:96.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:鸭嘴火兽 / CP:831 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:嘎啦嘎啦 / CP:651 / IV:93.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:多刺菊石兽 / CP:1000 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:派拉斯特 / CP:885 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:大比鸟 / CP:1763 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:凯罗斯 / CP:538 / IV:96.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:蚊香泳士 / CP:1417 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:火暴猴 / CP:1059 / IV:98.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:烈焰马 / CP:926 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:穿山王 / CP:1025 / IV:96.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:飞天螳螂 / CP:1168 / IV:93.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:海刺龙 / CP:972 / IV:96.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:金鱼王 / CP:1151 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:呆壳兽 / CP:1469 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:宝石海星 / CP:1116 / IV:98.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:毒刺水母 / CP:1258 / IV:93.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:水伊布 / CP:2422 / IV:98.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:摩鲁蛾 / CP:531 / IV:91.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:妙蛙花 / CP:1499 / IV:93.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:82 - 名称:大食花 / CP:1073 / IV:93.0%
+2016-07-31 20:31:07 INFO PokemonGoBot:85 - 正在获取补给站信息...
+2016-07-31 20:31:08 INFO PokemonGoBot:96 - 获取到周边 154 个补给站信息
+2016-07-31 20:31:08 INFO PokemonGoBot:101 - 开始启动Bot线程...
+2016-07-31 20:31:09 INFO GetMapRandomDirection:31 - 探索地图信息 (37.807279260890965, -122.42953731787246)
+2016-07-31 20:31:09 INFO LootNearbyPokestop:75 - 移动到较远的补给站
+2016-07-31 20:31:09 INFO LootNearbyPokestop:126 - 正在移动到目标 (37.807413, -122.43023500000001) 需要步数 35.41109745849434步
+2016-07-31 20:31:09 INFO UpdateProfile:59 - 更新账号信息: 当前经验值 1876570 当前等级 29 经验值进度 226570/350000 (64.73 %) 至 下一等级 30
+2016-07-31 20:31:09 INFO UpdateProfile:60 - Bot获得经验值 0 捕捉精灵 0 放生精灵 0 获得道具 0 丢弃道具 0
+2016-07-31 20:31:32 INFO LootNearbyPokestop:54 - 正在滑动补给站3ce7b6f1c2254f959b8dcea927b8d0d1.16
+2016-07-31 20:31:33 INFO LootNearbyPokestop:58 - 成功的摸了一把补给站 3ce7b6f1c2254f959b8dcea927b8d0d1.16，获得了 50 经验值
+2016-07-31 20:31:33 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_POKE_BALL
+2016-07-31 20:31:33 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_POKE_BALL
+2016-07-31 20:31:33 INFO LootNearbyPokestop:61 - 获得了 1 个 ITEM_GREAT_BALL
+2016-07-31 20:31:44 INFO CatchNearbyPokemon:66 - 野生的宝可梦 波波 从草里跳出来!
+2016-07-31 20:31:45 INFO CatchNearbyPokemon:71 - 遇到宝可梦 波波 CP 227
+2016-07-31 20:31:46 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:31:47 INFO CatchNearbyPokemon:100 - 抓住了一只 波波 CP 57.78% IV 57.77777777777778
+2016-07-31 20:31:47 INFO CatchNearbyPokemon:101 - 获得了 100 经验值 3 糖果 100 星辰
+2016-07-31 20:31:50 INFO LootNearbyPokestop:75 - 移动到较远的补给站
+2016-07-31 20:31:50 INFO LootNearbyPokestop:126 - 正在移动到目标 (37.807413, -122.43023500000001) 需要步数 38.973964890012816步
+2016-07-31 20:31:50 INFO CatchNearbyPokemon:66 - 野生的宝可梦 杰尼龟 从草里跳出来!
+2016-07-31 20:31:51 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80798488840092, -122.43007103785553)
+2016-07-31 20:31:51 INFO CatchNearbyPokemon:71 - 遇到宝可梦 杰尼龟 CP 524
+2016-07-31 20:31:52 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:31:52 INFO ReleasePokemon:49 - 正在放生宝可梦 波波 原因 57.77777777777777 IV不达标
+2016-07-31 20:31:53 INFO ReleasePokemon:53 - 已放生宝可梦 波波
+2016-07-31 20:31:53 ERROR CatchNearbyPokemon:123 - 精灵捕捉进程发生错误
+com.pokegoapi.exceptions.RemoteServerException: com.google.protobuf.InvalidProtocolBufferException: Contents of buffer are null
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.useItem(CatchablePokemon.java:397)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:335)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:297)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:248)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:230)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:212)
+	at name.teemo.pogo.task.CatchNearbyPokemon.run(CatchNearbyPokemon.java:94)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.google.protobuf.InvalidProtocolBufferException: Contents of buffer are null
+	at com.pokegoapi.main.ServerRequest.getData(ServerRequest.java:66)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.useItem(CatchablePokemon.java:395)
+	... 9 more
+2016-07-31 20:31:57 INFO CatchNearbyPokemon:66 - 野生的宝可梦 杰尼龟 从草里跳出来!
+2016-07-31 20:31:58 INFO CatchNearbyPokemon:71 - 遇到宝可梦 杰尼龟 CP 524
+2016-07-31 20:31:58 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:32:00 ERROR CatchNearbyPokemon:123 - 精灵捕捉进程发生错误
+com.pokegoapi.exceptions.RemoteServerException: com.google.protobuf.InvalidProtocolBufferException: Contents of buffer are null
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:354)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:297)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:248)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:230)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:212)
+	at name.teemo.pogo.task.CatchNearbyPokemon.run(CatchNearbyPokemon.java:94)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.google.protobuf.InvalidProtocolBufferException: Contents of buffer are null
+	at com.pokegoapi.main.ServerRequest.getData(ServerRequest.java:66)
+	at com.pokegoapi.api.map.pokemon.CatchablePokemon.catchPokemon(CatchablePokemon.java:352)
+	... 8 more
+2016-07-31 20:32:02 INFO CatchNearbyPokemon:66 - 野生的宝可梦 杰尼龟 从草里跳出来!
+2016-07-31 20:32:03 INFO CatchNearbyPokemon:71 - 遇到宝可梦 杰尼龟 CP 524
+2016-07-31 20:32:04 INFO CatchNearbyPokemon:93 - 去吧！精灵球！
+2016-07-31 20:32:05 INFO CatchNearbyPokemon:100 - 抓住了一只 杰尼龟 CP 28.89% IV 28.88888888888889
+2016-07-31 20:32:05 INFO CatchNearbyPokemon:101 - 获得了 100 经验值 3 糖果 100 星辰
+2016-07-31 20:32:09 INFO ReleasePokemon:49 - 正在放生宝可梦 杰尼龟 原因 28.888888888888886 IV不达标
+2016-07-31 20:32:10 INFO ReleasePokemon:53 - 已放生宝可梦 杰尼龟
+2016-07-31 20:32:32 INFO LootNearbyPokestop:75 - 移动到较远的补给站
+2016-07-31 20:32:32 INFO LootNearbyPokestop:126 - 正在移动到目标 (37.807413, -122.43023500000001) 需要步数 24.40964702181161步
+2016-07-31 20:32:33 INFO GetMapRandomDirection:31 - 探索地图信息 (37.807690377929475, -122.43056117953525)
+2016-07-31 20:32:36 INFO PokemonGoBotMain:31 - 正在登录服务器...
+2016-07-31 20:32:43 INFO PokemonGoBotMain:59 - 成功登录帐号 admin@yumao.name
+2016-07-31 20:32:43 INFO PokemonGoBotMain:63 - 初始化空降坐标 (37.807297, -122.429535)
+2016-07-31 20:32:43 INFO PokemonGoBot:40 - 正在获取账号信息...
+2016-07-31 20:32:45 INFO PokemonGoBot:61 - 用户名称:itscaptainteemo
+2016-07-31 20:32:45 INFO PokemonGoBot:62 - 战队信息:TEAM_VALOR
+2016-07-31 20:32:45 INFO PokemonGoBot:63 - 口袋金币:0
+2016-07-31 20:32:45 INFO PokemonGoBot:64 - 星尘数量:42915
+2016-07-31 20:32:45 INFO PokemonGoBot:65 - 达成等级:29
+2016-07-31 20:32:45 INFO PokemonGoBot:66 - 当前经验:1877040
+2016-07-31 20:32:45 INFO PokemonGoBot:67 - 口袋银行:34/300
+2016-07-31 20:32:45 INFO PokemonGoBot:68 - 道具包裹:14/500
+2016-07-31 20:32:45 INFO PokemonGoBot:79 - 持有宝可梦:<NAME/CP/IV>
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:阿柏怪 / CP:1272 / IV:93.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:风速狗 / CP:2547 / IV:98.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:刺甲贝 / CP:1156 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:快龙 / CP:1093 / IV:96.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:伊布 / CP:235 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:顽皮雷弹 / CP:1016 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:椰蛋树 / CP:1803 / IV:96.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:火伊布 / CP:2284 / IV:100.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:隆隆岩 / CP:913 / IV:93.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:暴鲤龙 / CP:1521 / IV:96.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:鬼斯通 / CP:1169 / IV:93.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:雷伊布 / CP:814 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:迷唇姐 / CP:961 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:巨钳蟹 / CP:799 / IV:96.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:鸭嘴火兽 / CP:831 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:嘎啦嘎啦 / CP:651 / IV:93.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:多刺菊石兽 / CP:1000 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:派拉斯特 / CP:885 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:大比鸟 / CP:1763 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:凯罗斯 / CP:538 / IV:96.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:蚊香泳士 / CP:1417 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:火暴猴 / CP:1059 / IV:98.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:烈焰马 / CP:926 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:穿山王 / CP:1025 / IV:96.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:飞天螳螂 / CP:1168 / IV:93.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:海刺龙 / CP:972 / IV:96.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:金鱼王 / CP:1151 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:呆壳兽 / CP:1469 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:宝石海星 / CP:1116 / IV:98.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:毒刺水母 / CP:1258 / IV:93.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:水伊布 / CP:2422 / IV:98.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:摩鲁蛾 / CP:531 / IV:91.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:妙蛙花 / CP:1499 / IV:93.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:82 - 名称:大食花 / CP:1073 / IV:93.0%
+2016-07-31 20:32:45 INFO PokemonGoBot:85 - 正在获取补给站信息...
+2016-07-31 20:32:46 INFO PokemonGoBot:96 - 获取到周边 154 个补给站信息
+2016-07-31 20:32:46 INFO PokemonGoBot:101 - 开始启动Bot线程...
+2016-07-31 20:32:47 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80729863591849, -122.42953476291298)
+2016-07-31 20:32:47 INFO UpdateProfile:59 - 更新账号信息: 当前经验值 1877040 当前等级 29 经验值进度 227040/350000 (64.87 %) 至 下一等级 30
+2016-07-31 20:32:47 INFO UpdateProfile:60 - Bot获得经验值 0 捕捉精灵 0 放生精灵 0 获得道具 0 丢弃道具 0
+2016-07-31 20:32:53 INFO GetMapRandomDirection:31 - 探索地图信息 (37.807334775353745, -122.42956150401221)
+2016-07-31 20:32:59 INFO GetMapRandomDirection:31 - 探索地图信息 (37.80737765010449, -122.42956903676888)

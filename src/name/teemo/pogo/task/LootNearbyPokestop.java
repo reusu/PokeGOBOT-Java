@@ -36,6 +36,7 @@ public class LootNearbyPokestop implements Runnable{
 	
 	@Override
 	public void run() {
+		logger.debug("进入补给进程");
 		try{
 			List<Pokestop> pokestopList = new ArrayList<Pokestop>();
 			Iterator<Pokestop> pokestopsIter = pokestops.iterator();
@@ -70,22 +71,23 @@ public class LootNearbyPokestop implements Runnable{
 					}else if(result.getResult() == Result.NO_RESULT_SET ){
 						logger.info("未知异常");
 					}
-				}else if(!pokestop.inRange() && !threadCount.getWaking() && Math.abs(threadCount.getUpWalkTime()-Calendar.getInstance().getTimeInMillis()) >= Long.parseLong(Config.getProperty("bot_cold_time"))){
+				}else if(!pokestop.inRange() && !threadCount.getWaking() && ((Math.abs(threadCount.getUpWalkTime()-Calendar.getInstance().getTimeInMillis())) >= Long.parseLong(Config.getProperty("bot_cold_time")))){
 					logger.info("移动到较远的补给站");
 					S2LatLng target = S2LatLng.fromDegrees(pokestop.getLatitude(), pokestop.getLongitude());
 					walk(target);
 					break;
-				}else if(!threadCount.getWaking() && !soClose() && Math.abs(threadCount.getUpWalkTime()-Calendar.getInstance().getTimeInMillis()) >= Long.parseLong(Config.getProperty("bot_cold_time"))){
+				}else if(!threadCount.getWaking() && !soClose() && ((Math.abs(threadCount.getUpWalkTime()-Calendar.getInstance().getTimeInMillis())) >= Long.parseLong(Config.getProperty("bot_cold_time")))){
 					logger.info("附近木有可以摸的补给站，回家");
 					S2LatLng target = S2LatLng.fromDegrees(Double.parseDouble(Config.getProperty("latitude")), Double.parseDouble(Config.getProperty("longitude")));
 					walk(target);
 					break;
-				}
+				}else{break;}
 			}
 		}catch (Exception e) {
 			logger.error("补给进程发生错误",e);
 		}finally {
 			threadCount.setRunThreadCount(threadCount.getRunThreadCount()-1);
+			logger.debug("退出补给进程");
 		}
 	}
 	

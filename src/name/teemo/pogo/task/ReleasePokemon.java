@@ -26,6 +26,7 @@ public class ReleasePokemon implements Runnable{
 	}
 	@Override
 	public void run() {
+		logger.debug("进入放生进程");
 		try{
 			List<Pokemon> pokemons = pokemonGo.getInventories().getPokebank().getPokemons();
 			Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
@@ -70,6 +71,7 @@ public class ReleasePokemon implements Runnable{
 			logger.error("精灵放生进程发生错误",e);
 		}finally {
 			threadCount.setRunThreadCount(threadCount.getRunThreadCount()-1);
+			logger.debug("退出放生进程");
 		}
 	}
 }

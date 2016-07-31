@@ -21,6 +21,7 @@ public class GetMapRandomDirection implements Runnable{
 
 	@Override
 	public void run() {
+		logger.debug("进入探索进程");
 		try{
 			if(!threadCount.getWaking()){
 				Double lat = pokemonGo.getLatitude() + randomLatLng();
@@ -35,6 +36,7 @@ public class GetMapRandomDirection implements Runnable{
 			logger.error("探索地图进程发生错误",e);
 		}finally {
 			threadCount.setRunThreadCount(threadCount.getRunThreadCount()-1);
+			logger.debug("退出探索进程");
 		}
 	}
 	

@@ -32,6 +32,7 @@ public class DropUselessItems implements Runnable{
 	
 	@Override
 	public void run() {
+		logger.debug("进入丢弃进程");
 		try{
 			int[] dItemMax = {
 					Integer.parseInt(Config.getProperty("item_revive")), Integer.parseInt(Config.getProperty("item_max_revive")), Integer.parseInt(Config.getProperty("item_potion")),
@@ -58,6 +59,7 @@ public class DropUselessItems implements Runnable{
 			logger.error("丢弃道具进程发生错误",e);
 		}finally {
 			threadCount.setRunThreadCount(threadCount.getRunThreadCount()-1);
+			logger.debug("退出丢弃进程");
 		}
 	}
 }

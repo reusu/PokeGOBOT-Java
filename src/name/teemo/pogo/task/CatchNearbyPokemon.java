@@ -34,6 +34,7 @@ public class CatchNearbyPokemon implements Runnable{
 
 	@Override
 	public void run() {
+		logger.debug("进入捕捉进程");
 		try{
 			Collection<Item> items = pokemonGo.getInventories().getItemBag().getItems();
 			int ballTypeCount = 0;
@@ -122,6 +123,7 @@ public class CatchNearbyPokemon implements Runnable{
 			logger.error("精灵捕捉进程发生错误",e);
 		}finally {
 			threadCount.setRunThreadCount(threadCount.getRunThreadCount()-1);
+			logger.debug("退出捕捉进程");
 		}
 	}
 }

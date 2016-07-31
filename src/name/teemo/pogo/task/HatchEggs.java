@@ -35,6 +35,7 @@ public class HatchEggs implements Runnable{
 
 	@Override
 	public void run() {
+		logger.debug("进入孵蛋进程");
 		try{
 			PlayerProfile playerProfile = null;
 			Inventories inventories = null;
@@ -106,6 +107,7 @@ public class HatchEggs implements Runnable{
 			logger.error("孵蛋进程发生错误",e);
 		}finally {
 			threadCount.setRunThreadCount(threadCount.getRunThreadCount()-1);
+			logger.debug("退出孵蛋进程");
 		}
 	}
 }
