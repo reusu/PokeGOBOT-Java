@@ -15,7 +15,6 @@ import com.pokegoapi.api.inventory.Inventories;
 import com.pokegoapi.api.map.MapObjects;
 import com.pokegoapi.api.player.PlayerProfile;
 import com.pokegoapi.api.pokemon.Pokemon;
-import com.pokegoapi.exceptions.InvalidCurrencyException;
 
 import name.teemo.pogo.task.CatchNearbyPokemon;
 import name.teemo.pogo.task.DropUselessItems;
@@ -58,15 +57,15 @@ public class PokemonGoBot implements Runnable{
 			}
 		}
 		try{
-			logger.info("用户名称:"	+ playerProfile.getUsername());
-			logger.info("战队信息:"	+ playerProfile.getTeam());
+			logger.info("用户名称:"	+ playerProfile.getPlayerData().getUsername());
+			logger.info("战队信息:"	+ playerProfile.getPlayerData().getTeam().name());
 			logger.info("口袋金币:"	+ playerProfile.getCurrency(PlayerProfile.Currency.POKECOIN));
 			logger.info("星尘数量:"	+ playerProfile.getCurrency(PlayerProfile.Currency.STARDUST));
 			logger.info("达成等级:"	+ playerProfile.getStats().getLevel());
 			logger.info("当前经验:"	+ playerProfile.getStats().getExperience());
-			logger.info("口袋银行:"	+ inventories.getPokebank().getPokemons().size() + "/" + playerProfile.getPokemonStorage());
-			logger.info("道具包裹:"	+ inventories.getItemBag().getItems().size() + "/" + playerProfile.getItemStorage());
-		}catch (InvalidCurrencyException e) {
+			logger.info("口袋银行:"	+ inventories.getPokebank().getPokemons().size() + "/" + playerProfile.getPlayerData().getMaxPokemonStorage());
+			logger.info("道具包裹:"	+ inventories.getItemBag().getItems().size() + "/" + playerProfile.getPlayerData().getMaxItemStorage());
+		}catch (Exception e) {
 			logger.error("系统无法调用PokeAPI资源");
 			e.printStackTrace();
 		}
@@ -129,7 +128,6 @@ public class PokemonGoBot implements Runnable{
 			}
 		}
 	}
-
 	public class ComparatorPM implements Comparator<Object>{
 		@Override
 		public int compare(Object pm1, Object pm2) {

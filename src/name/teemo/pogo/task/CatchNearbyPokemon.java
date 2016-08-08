@@ -12,7 +12,7 @@ import com.pokegoapi.api.PokemonGo;
 import com.pokegoapi.api.inventory.Item;
 import com.pokegoapi.api.map.pokemon.CatchResult;
 import com.pokegoapi.api.map.pokemon.CatchablePokemon;
-import com.pokegoapi.api.map.pokemon.EncounterResult;
+import com.pokegoapi.api.map.pokemon.encounter.EncounterResult;
 
 import POGOProtos.Inventory.Item.ItemIdOuterClass.ItemId;
 import POGOProtos.Networking.Responses.EncounterResponseOuterClass.EncounterResponse.Status;
@@ -68,7 +68,7 @@ public class CatchNearbyPokemon implements Runnable{
 							Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
 							EncounterResult encounterResult  = catchablePokemon.encounterPokemon();
 							if (encounterResult.wasSuccessful()) {
-								logger.info("遇到宝可梦 " + PokemonName.getPokemonName(catchablePokemon.getPokemonId().name(), Config.getProperty("pokemon_lang")) + " CP " + encounterResult.getWildPokemon().getPokemonData().getCp());
+								logger.info("遇到宝可梦 " + PokemonName.getPokemonName(catchablePokemon.getPokemonId().name(), Config.getProperty("pokemon_lang")) + " CP " + encounterResult.getPokemonData().getCp());
 								Collection<Item> _items = pokemonGo.getInventories().getItemBag().getItems();
 								Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
 								int _ballTypeCount = 0;
@@ -93,9 +93,9 @@ public class CatchNearbyPokemon implements Runnable{
 									logger.info("去吧！精灵球！");
 									CatchResult catchResult = _barryCount!=0?catchablePokemon.catchPokemonWithRazzBerry():catchablePokemon.catchPokemon();
 					                if (catchResult.getStatus() == CatchPokemonResponse.CatchStatus.CATCH_SUCCESS) {
-					                    double iv = ((double)encounterResult.getWildPokemon().getPokemonData().getIndividualAttack() 
-					                    		+ (double)encounterResult.getWildPokemon().getPokemonData().getIndividualDefense() 
-					                    		+ encounterResult.getWildPokemon().getPokemonData().getIndividualStamina()) * 100 / 45;
+					                    double iv = ((double)encounterResult.getPokemonData().getIndividualAttack()
+					                    		+ (double)encounterResult.getPokemonData().getIndividualDefense() 
+					                    		+ encounterResult.getPokemonData().getIndividualStamina()) * 100 / 45;
 					                    DecimalFormat decimalFormat = new DecimalFormat("#.##");   
 					                    logger.info("抓住了一只 " + PokemonName.getPokemonName(catchablePokemon.getPokemonId().name(), Config.getProperty("pokemon_lang")) + " CP " + Double.parseDouble(decimalFormat.format(iv)) + "% IV " + iv);
 					                    logger.info("获得了 " + catchResult.getXpList().get(0) + " 经验值 " + catchResult.getCandyList().get(0)  + " 糖果 " + catchResult.getStardustList().get(0)  + " 星辰");
