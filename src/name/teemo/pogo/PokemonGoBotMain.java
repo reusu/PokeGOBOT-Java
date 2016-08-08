@@ -26,7 +26,7 @@ public class PokemonGoBotMain {
 		httpBuilder.writeTimeout(60, TimeUnit.SECONDS);
 		OkHttpClient httpClient = httpBuilder.build();
 		
-		Config.setConfigResource(Class.class.getClass().getResource("/").getPath() + "config.properties");
+		Config.setConfigResource("config.properties");
 		
 		logger.info("正在登录服务器...");
 		
