@@ -78,6 +78,15 @@ public class PokemonGoBot implements Runnable{
 			logger.info("持有宝可梦:<NAME/CP/IV>");
 		}
 		for(Pokemon pokemon : pokemons){
+			try{
+				if(Boolean.parseBoolean(Config.getProperty("rename_to_iv"))){
+					if(!pokemon.getNickname().equals(decimalFormat.format(pokemon.getIvRatio()))){
+						pokemon.renamePokemon(decimalFormat.format(pokemon.getIvRatio()));
+						Thread.sleep(Long.parseLong(Config.getProperty("api_loop_await")));
+					}
+				}
+			}catch (Exception e) {
+			}
 			logger.info("名称:" + PokemonName.getPokemonName(pokemon.getPokemonId().name(), Config.getProperty("pokemon_lang")) + " / CP:" + pokemon.getCp() + " / IV:" + Double.parseDouble(decimalFormat.format(pokemon.getIvRatio()))*100 + "%");
 		}
 		
